@@ -12,32 +12,13 @@ import {
 import { useState, useEffect, useRef } from "react";
 import { 
   Brain, 
-  Cpu, 
-  Database, 
   ExternalLink, 
-  Github, 
-  Linkedin, 
-  Twitter,
-  Clock,
-  Target,
-  Settings,
   ChevronRight,
   ArrowUpRight,
-  Users,
-  BarChart,
   ChevronLeft,
   Bot,
   Sparkles,
   Rocket,
-  CheckCircle2,
-  MessageSquare,
-  Phone,
-  Zap,
-  Timer,
-  Code2,
-  Settings2,
-  RefreshCw,
-  HelpCircle,
   Send
 } from "lucide-react";
 import { useForm, Controller } from "react-hook-form";
