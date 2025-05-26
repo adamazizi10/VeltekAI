@@ -12,32 +12,14 @@ import {
 import { useState, useEffect, useRef } from "react";
 import { 
   Brain, 
-  Cpu, 
-  Database, 
   ExternalLink, 
-  Github, 
-  Linkedin, 
-  Twitter,
-  Clock,
-  Target,
-  Settings,
   ChevronRight,
   ArrowUpRight,
-  Users,
-  BarChart,
   ChevronLeft,
   Bot,
   Sparkles,
   Rocket,
-  CheckCircle2,
-  MessageSquare,
   Phone,
-  Zap,
-  Timer,
-  Code2,
-  Settings2,
-  RefreshCw,
-  HelpCircle,
   Send
 } from "lucide-react";
 import { useForm, Controller } from "react-hook-form";
@@ -48,12 +30,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 
 function App() {
-  const [openDemo, setOpenDemo] = useState(false);
-  const [openPrototype, setOpenPrototype] = useState(false);
-  const [openConsultation, setOpenConsultation] = useState(false);
+  // const [openDemo, setOpenDemo] = useState(false);
+  // const [openPrototype, setOpenPrototype] = useState(false);
+  // const [openConsultation, setOpenConsultation] = useState(false);
   const [openContactForm, setOpenContactForm] = useState(false);
-  const [email, setEmail] = useState("");
-  const [websiteUrl, setWebsiteUrl] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [websiteUrl, setWebsiteUrl] = useState("");
   const testimonialRef = useRef<HTMLDivElement>(null);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isAutoScrolling, setIsAutoScrolling] = useState(true);
